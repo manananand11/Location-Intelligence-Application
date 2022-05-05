@@ -2,3 +2,23 @@
     height: 100vh;
     width: 100%;
 }
+
+.mapbox {
+    position: relative;
+}
+
+.mapbox .overlay {
+    border-radius: 10%;
+    opacity: 75%;
+    background-color: black;
+    position: absolute;
+    top: 25%;
+    margin-left: 20px;
+    /* left: 20; */
+    z-index: 314159;
+    pointer-events: initial;
+}
+
+.mapbox .overlay .btn {
+    pointer-events: initial;
+}

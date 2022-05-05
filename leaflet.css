@@ -147,6 +147,7 @@
 	}
 .leaflet-left {
 	left: 0;
+	margin-left: 20px;
 	}
 .leaflet-control {
 	float: left;
@@ -656,18 +657,4 @@ svg.leaflet-image-layer.leaflet-interactive path {
 		}
 	}
 
-    .mapbox {
-        position: relative;
-    }
-    
-    .mapbox .overlay {
-        position: absolute;
-        top: 0;
-        left: 0;
-        z-index: 314159;
-        pointer-events: initial;
-    }
-    
-    .mapbox .overlay .btn {
-        pointer-events: initial;
-    }
+   
