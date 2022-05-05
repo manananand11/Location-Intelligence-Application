@@ -34,4 +34,7 @@ var overlays = {
 };
 
 L.control.layers(baseLayers, overlays).addTo(map);
+
 L.Control.geocoder().addTo(map);
+
+L.control.locate().addTo(map);
